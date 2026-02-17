@@ -24,7 +24,6 @@ buttons.forEach((btn) => {
 });
 
 equal.addEventListener("click", function () {
-  click.play();
   display.textContent = eval(display.textContent);
   output = display.textContent;
 });
